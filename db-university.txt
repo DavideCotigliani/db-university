@@ -31,3 +31,8 @@ QUERY 6
 SELECT *
 FROM `degrees`
 WHERE `level` = 'magistrale'
+
+QUERY 7
+SELECT *
+FROM `departments`
+WHERE `name` IS NOT NULL;
