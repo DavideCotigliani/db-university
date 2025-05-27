@@ -13,3 +13,6 @@ SELECT AVG(`vote`)
 FROM `exam_student`
 
 QUERY 4
+SELECT COUNT(*) AS corso_di_laurea, `department_id`
+FROM `degrees`
+GROUP BY `department_id`
