@@ -9,5 +9,7 @@ FROM `teachers`
 GROUP BY indirizzo_ufficio
 
 QUERY 3 
+SELECT AVG(`vote`)
+FROM `exam_student`
 
 QUERY 4
