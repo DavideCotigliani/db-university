@@ -9,8 +9,9 @@ FROM `teachers`
 GROUP BY indirizzo_ufficio
 
 QUERY 3 
-SELECT AVG(`vote`)
+SELECT `exam_id`, AVG(`vote`)
 FROM `exam_student`
+GROUP BY `exam_id`
 
 QUERY 4
 SELECT COUNT(*) AS corso_di_laurea, `department_id`
